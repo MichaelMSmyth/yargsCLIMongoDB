@@ -1,7 +1,6 @@
 const yargs = require("yargs")
 const connection = require("./db/connection")
 const { createRecord, readRecord, updateRecord, deleteRecord } = require("./crud/index")
-const 
 
 // I want to take the yargs.argv object and pass the parameters into the movieObj regardless of the key
 
